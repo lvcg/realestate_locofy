@@ -58,9 +58,9 @@ const Hero = () => {
               className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded overflow-hidden flex flex-row items-start justify-start"
               autoFocus
             >
-              <div className="relative text-base leading-[24px] font-medium font-body-large-400 text-gray-white text-center">
-                Rent
-              </div>
+              <Button color="primary" size="medium" variant="contained">
+  Rent
+</Button>
             </button>
             <Button variant="contained" color="primary">
               Sale
